@@ -1,25 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- PUT A TITLE IN HERE -->
-    <title>This is the demo</title>
-    <!-- PUT A DESCRIPTION IN HERE -->
-    <meta name="description" content="describe content of the page here...." />
-    <!-- LINK TO NORMALIZE (FOR CONSISTENCY) -->
-    <link rel="stylesheet" href="styles.normalize.css" />
-    <!-- LINK TO ANY FRAMEWORK STYLES HERE-->
-    <!-- LINK TO YOUR STYLES -->
-    <link rel="stylesheet" href="styles/styles.css" />
-    <!-- LINK TO EXTERNAL JS LIBRARIES HERE -->
-    <!-- LINK TO YOUR JS HERE. NOTE THE DEFER ATTRIBUTE. -->
-    <script src="scripts/scripts.js" defer></script>
-  </head>
-  <body>
-    <!-- YOUR HTML GOES HERE -->
-<h1>jenieke</h1>
-    <!-- YOUR EXTERNAL PLUG-IN MAY ASK YOU TO PUT A SCRIPT TAG HERE. -->
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Bot - Home</title>
+  <meta name="description" content="Product Description Page">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/jquery.transit.min.js"></script>
+</head>
+
+
+<body>
+  <header>
+    <nav>
+    <div class="logo"><h1>GameBot</h1></div>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <ul class="mainMenu">  
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="game_directory.html">Game Directory</a></li>
+      <div class="closeMenu"><i class="fa fa-times"></i></div>
+    </ul>
+    </nav>
+  </header>
+  <main>
+  <div id="description">
+    <h2>GameBot will help make finding your next video game easier - across all platforms!</h2>
+    <p><strong>Take the quiz below and find your perfect game.</strong></p>
+  </div>
+<section>
+  <div class="carousel--wrapper carousel--wrapper--sec">
+    <div class="carousel">
+      <div class="progress-bar">
+        <div class="progress-bar-insider" data-progress=""></div>
+      </div>
+      <div class="carousel__content">
+        <div class="carousel--item">
+          <p class="carousel--title carousel--title--sub">Generate your perfect game!</p>
+          <span class="carousel--radios"><button class="btn btn-primary nav--buttons--right mt">Begin</button>
+            </span>
+        </div>
+        <div class="carousel--item">
+          <p class="carousel--title">Do you prefer a singleplayer or multiplayer game?</p>
+         
+          <span class="carousel--radios">
+              <div class="radio-item">
+                <input id="q1singleplayer" class="questions" value="singleplayer" name="questionOne" type="radio"> 
+                <label for="q1singleplayer">Singleplayer</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q1multiplayer" value="multiplayer" name="questionOne" type="radio">
+                    <label for="multiplayer">Multiplayer</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q1both" value="both" name="questionOne" type="radio">
+                    <label for="q1both">Both</label>
+                  </div>
+                </span>
+              </div>
+            
+       
+        <div class="carousel--item ">
+          <p class="carousel--title">Which platform would you prefer to play on?</p>
+
+                <span class="carousel--radios">
+                  <div class="radio-item">
+                    <input id="q2all" class="questions" value="all" name="questionTwo" type="radio">
+                    <label for="q2all">Either PC or Console!</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q2pc" class="questions" value="pc" name="questionTwo" type="radio">
+                    <label for="q2pc">Just PC</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q2console" value="console" name="questionTwo" type="radio">
+                    <label for="q2console">Just Console</label>
+                  </div>
+                </span>
+              </div>
+        
+        <div class="carousel--item ">
+          <p class="carousel--title">Do you prefer an open explorable world, or a narrative linear story?</p>
+
+                <span class="carousel--radios">
+                  <div class="radio-item">
+                    <input id="q3openWorld" value="openWorld" name="questionThree" type="radio">
+                    <label for="q3openWorld"> I want an open world!</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q3linear" value="linear" name="questionThree" type="radio">
+                    <label for="q3linear">A narrative story suits me best</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q3mixed" value="mixed" name="questionThree" type="radio">
+                    <label for="q3mixed">I don't mind a mix of both</label>
+                  </div>
+                </span>
+              </div>
+        
+        <div class="carousel--item ">
+          <p class="carousel--title">Which genre do you prefer to play?</p>
+                <span class="carousel--radios">
+                  <div class="radio-item">
+                    <input id="q4action" value="action" name="questionFour" type="radio">
+                    <label for="q4action">Action-Adventure</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q4puzzle" value="puzzle" name="questionFour" type="radio">
+                    <label for="q4puzzle">Puzzles</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q4rpg" value="rpg" name="questionFour" type="radio">
+                    <label for="q4rpg">Role-playing</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q4platformer" value="platformer" name="questionFour" type="radio">
+                    <label for="q4platformer">Platformer</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q4simulator" value="simulator" name="questionFour" type="radio">
+                    <label for="q4simulator">Simulators</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q4survival" value="survival" name="questionFour" type="radio">
+                    <label for="q4survival">Survival games</label>
+                  </div>
+                  <div class="radio-item">
+                    <input id="q4shooter" value="shooter" name="questionFour" type="radio">
+                    <label for="q4shooter">Shooter</label>
+                  </div>
+                </span>
+              </div>
+        <div class="carousel--item ">
+          <p class="carousel--title">How much would you spend on the game?</p>
+       
+          <span class="carousel--radios">
+              <div class="radio-item">
+                <input id="q5free" class="questions" value="free" name="questionFive" type="radio">
+                <label for="q5free">No money!</label>
+              </div>
+              <div class="radio-item">
+                <input id="q5lowPrice" value="lowPrice" name="questionFive" type="radio">
+                <label for="lowPrice">Less than $20</label>
+              </div>
+              <div class="radio-item">
+                <input id="q5moderatePrice" value="moderatePrice" name="questionFive" type="radio">
+                <label for="q5moderatePrice">Around $20-$40</label>
+              </div>
+              <div class="radio-item">
+                <input id="q5expensivePrice" value="expensivePrice" name="questionFive" type="radio">
+                <label for="q5expensivePrice">I can spend more than $40</label>
+              </div>
+            </span>
+        </div>
+        <div class="carousel--item ">
+          <p class="carousel--title">How many hours would you like to put into the game?</p>
+       
+          <span class="carousel--radios">
+              <div class="radio-item">
+                <input id="q60-5" class="questions" value="0-5" name="questionSix" type="radio">
+                <label for="q60-5">Less than 5 hours</label>
+              </div>
+              <div class="radio-item">
+                <input id="q65-15" value="5-15" name="questionSix" type="radio">
+                <label for="q65-15">5-15 hours</label>
+              </div>
+              <div class="radio-item">
+                <input id="q615-30" value="15-30" name="questionSix" type="radio">
+                <label for="q615-30">15-30 hours</label>
+              </div>
+              <div class="radio-item">
+                <input id="q631" value="31" name="questionSix" type="radio">
+                <label for="q631">More than 30 hours</label>
+              </div>
+            </span>
+        </div>
+        <div class="carousel--item ">
+          <p class="carousel--title">How much violence do you prefer to see?</p>
+          <span class="carousel--radios">
+            <div class="radio-item">
+              <input id="q7noVio" class="questions" value="noVio" name="questionSeven" type="radio">
+              <label for="q7noVio">No violence</label>
+            </div>
+              <div class="radio-item">
+                <input id="q7lowVio" class="questions" value="lowVio" name="questionSeven" type="radio">
+                <label for="q7lowVio">Not a lot of violence</label>
+              </div>
+              <div class="radio-item">
+                <input id="q7moderateVio" value="moderate" name="questionSeven" type="radio">
+                <label for="q7moderate">Some violence is okay</label>
+            </div>
+            <div class="radio-item">
+                <input id="q7highVio" class="questions" value="highVio" name="questionSeven" type="radio">
+                <label for="q7highVio">I'm good with violence</label>
+              </div>
+            </span>
+        </div>
+       
+        <d class="carousel--item">
+        <a href="#">
+          <button id="btnCalculate">
+            Find my game!
+          </button>
+        </a>
+        </div>
+      </div>
+      <div class="carousel__nav">
+        <a class="nav--buttons nav--buttons--left" href="#">←</a> <a class="nav--buttons nav--buttons--right" href="#">→</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="fixed"> 
+    <footer id="footer-nav">
+             <a href="https://drive.google.com/open?id=1tNZsdas2r5Is3TGDE0rpbJmDoKO8DxKY">Project Proposal</a>
+             <a href="https://drive.google.com/open?id=11gTc31U0FoIxehG_gaQL6QWTMIqE_War">Wireframes</a>
+             <a href="https://drive.google.com/open?id=1_fbL8y_zjJkk6HiB90uMQuTNbny--M6e">UX Report</a>
+            <a href="https://drive.google.com/open?id=1JtNP31RBf4lvJef5kAhIqSRCElVrrtDr">Design Documentation</a>
+      </footer>
+      </div>
+</section>
+<script src="scripts/homescripts.js"></script>
+<script src="scripts/navscripts.js"></script>
+</body>
 </html>

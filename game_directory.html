@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Description Page</title>
+        <meta name="description" content="Product Description Page">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+
+    </head>
+    <body>
+      <header>
+        <div class="container">
+          <nav>
+            <div class="logo">
+              <h1>GameBot</h1>
+          </div>
+          <div class="openMenu">
+              <i class="fa fa-bars"></i>
+          </div>
+          <ul class="mainMenu">
+              <li>
+                  <a href="index.html">Home</a>
+              </li>
+              <li>
+                  <a href="about.html">About</a>
+              </li>
+              <li>
+                  <a href="game_directory.html">Game Directory</a>
+              </li>
+              <div class="closeMenu">
+                  <i class="fa fa-times"></i>
+              </div>
+          </ul>
+          </nav>
+          <div class="filterContainer">
+            <ul>
+            
+            </ul>
+            <div class="search">
+              <form action="#">
+                <input type="searc" placeholder="Search Category or Title">
+              <button type="button" class="btn-search">
+                <i class="fas fa-search"></i>
+              </button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </header>
+    <main>
+<div id="gameDirectoryBody">
+  <div class="products_wrapper">
+    <div class="products">
+      <div class="pr_img">
+        <img src="images/baldurs_gate3.png" alt="Baldur's Gate 3" width="200" height="250">
+      </div>
+      <div class="content">
+        <h3 class="title">Baldur's Gate 3</h3>
+        <p class="genre">Genre: RPG</p>
+        <p class="price">Price: $$</p>
+      </div>
+    </div>
+    <div class="products">
+      <div class="pr_img">
+        <img src="images/baldurs_gate3.png" alt="Baldur's Gate 3" width="200" height="250">
+      </div>
+      <div class="content">
+        <h3 class="title">Baldur's Gate 3</h3>
+        <p class="genre">Genre: RPG</p>
+        <p class="price">Price: $$</p>
+      </div>
+    </div>
+    <div class="products">
+      <div class="pr_img">
+        <img src="images/baldurs_gate3.png" alt="Baldur's Gate 3" width="200" height="250">
+      </div>
+      <div class="content">
+        <h3 class="title">Baldur's Gate 3</h3>
+        <p class="genre">Genre: RPG</p>
+        <p class="price">Price: $$</p>
+      </div>
+    </div>
+    <div class="products">
+      <div class="pr_img">
+        <img src="images/baldurs_gate3.png" alt="Baldur's Gate 3" width="200" height="250">
+      </div>
+      <div class="content">
+        <h3 class="title">Baldur's Gate 3</h3>
+        <p class="genre">Genre: RPG</p>
+        <p class="price">Price: $$</p>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+
+
+
+
+
+
+       <!-- <header>
+            <nav>
+                <div class="logo">
+                    <h1>Game Directory</h1>
+                </div>
+                <div class="openMenu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <ul class="mainMenu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="game_directory.html">Game Directory</a>
+                    </li>
+                    <div class="closeMenu">
+                        <i class="fa fa-times"></i>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+        <button class="filterBtn" id="showFilters">Filters</button>
+        <section id="gameDirectoryBody">
+            <div class="filters" id="gameList">
+                <button class="filterBtn" id="showAll" onclick="filterObjects('all')">Show All</button>
+                <h6>Genre</h6>
+                <button class="filterBtn" id="puzzle" onclick="filterObjects('puzzle')">Puzzle</button>
+                <button class="filterBtn" id="action" onclick="filterObjects('action')">Action</button>
+                <button class="filterBtn" id="rpg" onclick="filterObjects('rpg')">RPG</button>
+                <button class="filterBtn" id="survival">Survival</button>
+                <button class="filterBtn" id="simulator">Simulator</button>
+                <button class="filterBtn" id="shooter">Shooter</button>
+                <button class="filterBtn" id="platformer">Platformer</button>
+                <h6>World</h6>
+                <button class="filterBtn" id="openWorld">Open World</button>
+                <button class="filterBtn" id="linear">Linear Plot</button>
+                <button class="filterBtn" id="mixed">Mixed</button>
+                <h6>Players</h6>
+                <button class="filterBtn" id="multiplayer">Multiplayer</button>
+                <button class="filterBtn" id="singleplayer">Singleplayer</button>
+                <button class="filterBtn" id="both">Both</button>
+                <h6>Platform</h6>
+                <button class="filterBtn" id="all">PC/Consoles</button>
+                <button class="filterBtn" id="pc">Only PC</button>
+                <button class="filterBtn" id="console">Only Console</button>
+                <h6>Price</h6>
+                <button class="filterBtn" id="free">Free</button>
+                <button class="filterBtn" id="lowPrice">Low Price</button>
+                <button class="filterBtn" id="moderatePrice">Moderately Priced</button>
+                <button class="filterBtn" id="expensivePrice">Expensive</button>
+          
+            </div>
+            <div class="objects">
+               <div class="box rpg openWorld both most expensivePrice"><img src="images/baldurs_gate3.png" alt="Baldur’s Gate 3" width="250" height="250">
+                <p><a href="baldurs_gate3.html">Baldur’s Gate 3</a></p></div>
+            <div class="box platformer linear singleplayer most lowPrice"> <img src="images/celeste.png" alt="Celeste" width="250" height="250">
+              <p><a href="celeste.html">Celeste</a></p></div>
+            <div class="box action openWorld both most moderatePrice"> <img src="images/chicory.png" alt="Chicory: A Colorful Tale" width="250" height="250">
+              <p><a href="chicory.html">Chicory: A Colorful Tale</a> </p></div>
+            <div class="box rpg openWorld singleplayer most expensivePrice"> <img src="images/cyberpunk2077.png" alt="Cyberpunk 2077" width="250" height="250">
+              <p><a href="cyberpunk2077.html">Cyberpunk 2077</a> </p></div>
+            <div class="box shooter openWorld multiplayer most moderatePrice"> <img src="images/deep_rock.png" alt="Deep Rock Galactic" width="250" height="250"></img>
+              <p><a href="deep_rock.html">Deep Rock Galactic</a></p> </div>
+            <div class="box shooter linear singleplayer most moderatePrice"> <img src="images/doom_eternal.png" alt="DOOM Eternal" width="250" height="250">
+              <p><a href="doom_eternal.html">DOOM Eternal</a></p> </div>
+            <div class="box rpg openWorld singleplayer most lowPrice"> <img src="images/fallout_nv.png" alt="Fallout: New Vegas" width="250" height="250">
+              <p><a href="fallout_nv.html">Fallout: New Vegas</a></p> </div>
+            <div class="box action linear singleplayer most lowPrice"> <img src="images/firewatch.png" alt="Firewatch" width="250" height="250">
+              <p><a href="firewatch.html">Firewatch</a></p> </div>
+            <div class="box rpg openWorld both most free"> <img src="images/genshin_impact.png" alt="Genshin Impact" width="250" height="250">
+              <p><a href="genshin_impact.html">Genshin Impact</a></p> </div>
+            <div class="box rpg mixed singleplayer most moderatePrice"> <img src="images/hades.png" alt="Hades" width="250" height="250">
+              <p><a href="hades.html">Hades</a></p> </div>
+            <div class="box action openWorld singleplayer most lowPrice"> <img src="images/hollow_knight.png" alt="Hollow Knight" width="250" height="250">
+              <p><a href="hollow_knight.html">Hollow Knight</a></p> </div>
+            <div class="box platformer linear multiplayer most moderatePrice"> <img src="images/it_takes_two.png" alt="It Takes Two" width="250" height="250">
+             <p><a href="it_takes_two.html">It Takes Two</a></p> </div>
+            <div class="box action linear both pc lowPrice"> <img src="images/journey.png" alt="Journey" width="250" height="250">
+             <p><a href="journey.html">Journey</a></p> </div>
+            <div class="box action linear multiplayer pc free"> <img src="images/league_of_legends.png" alt="League of Legends" width="250" height="250">
+             <p><a href="league_of_legends .html">League of Legends</a></p> </div>
+            <div class="box survival openWorld both most moderatePrice"> <img src="images/minecraft.png" alt="Minecraft" width="250" height="250">
+             <p><a href="minecraft.html">Minecraft</a></p> </div>
+            <div class="box action openWorld singleplayer most moderatePrice"> <img src="images/outer_wilds.png" alt="Outer Wilds" width="250" height="250">
+              <p><a href="outer_wilds.html">Outer Wilds</a></p> </div>
+            <div class="box shooter linear multiplayer most free"> <img src="images/overwatch2.png" alt="Overwatch 2" width="250" height="250">
+              <p><a href="overwatch2.html">Overwatch 2</a></p> </div>
+            <div class="box puzzle linear singleplayer pc lowPrice"> <img src="images/papers_please.png" alt="Papers, Please" width="250" height="250">
+              <p><a href="papers_please.html">Papers, Please</a></p> </div>
+            <div class="box action openWorld both most expensivePrice"> <img src="images/rdr2.png" alt="Red Dead Redemption 2" width="250" height="250">
+             <p><a href="rdr2.html">Red Dead Redemption 2</a></p> </div>
+            <div class="box puzzle openWorld singleplayer most moderatePrice"> <img src="images/obra_dinn.png" alt="Return of the Obra Dinn" width="250" height="250">
+             <p><a href="obra_dinn.html">Return of the Obra Dinn</a></p> </div>
+            <div class="box puzzle linear singleplayer most moderatePrice"> <img src="images/slay_the_spire.png" alt="Slay the Spire" width="250" height="250">
+             <p><a href="slay_the_spire.html">Slay the Spire</a></p> </div>
+            <div class="box simulator openWorld both most lowPrice"> <img src="images/stardew_valley.png" alt="Stardew Valley" width="250" height="250">
+             <p><a href="stardew_valley.html">Stardew Valley</a></p> </div>
+            <div class="box survival openWorld singleplayer most moderatePrice"> <img src="images/subnautica.png" alt="Subnautica" width="250" height="250">
+              <p><a href="subnautica.html">Subnautica</a></p> </div>
+            <div class="box survival openWorld both most lowPrice"> <img src="images/terraria.png" alt="Terraria" width="250" height="250">
+              <p><a href="terraria.html">Terraria</a></p> </div>
+            <div class="box puzzle linear both most moderatePrice"> <img src="images/tetris_effect.png" alt="Tetris Effect" width="250" height="250">
+              <p><a href="tetris_effect.html">Tetris Effect</a></p> </div>
+            <div class="box action openWorld singleplayer console expensivePrice"> <img src="images/zelda_botw.png" alt="The Legend of Zelda: Breath of the Wild" width="250" height="250">
+              <p><a href="zelda_botw.html">The Legend of Zelda: Breath of the Wild</a></p> </div>
+            <div class="box simulator openWorld singleplayer most expensivePrice"> <img src="images/sims4.png" alt="The Sims 4" width="250" height="250">
+             <p><a href="sims4.html">The Sims 4</a></p> </div>
+            <div class="box puzzle openWorld singleplayer most moderatePrice"> <img src="images/the_witness.png" alt="The Witness" width="250" height="250">
+              <p><a href="the_witness.html">The Witness</a></p> </div>
+            <div class="box action mixed singleplayer most moderatePrice"> <img src="images/tunic.png" alt="Tunic" width="250" height="250">
+              <p><a href="tunic.html">Tunic</a></p> </div>
+            <div class="box puzzle openWorld both pc moderatePrice"> <img src="images/wattam.png" alt="Wattam" width="250" height="250">
+              <p><a href="wattam.html">Wattam</a></p> </div> 
+           </div> 
+        </section> -->
+        <script src="scripts/directoryscripts.js"></script>
+        <script src="scripts/navscripts.js"></script>
+    </body>
+</html>
