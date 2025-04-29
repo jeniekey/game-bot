@@ -348,6 +348,10 @@ input[type="radio"]:focus {
   border-radius: 5px;
 }
 
+.hide {
+  display: none;
+
+}
 .content {
   padding: 1rem;
 }
@@ -716,6 +720,26 @@ color:yellow;
 .search ul li a:hover {
   color:red;
 }
+
+nav .mainMenu p a {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #ff0000;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+}
+
+nav .mainMenu p a:hover {
+  background: #0015ff;
+  transition: ease 0.5s;
+  color: yellow;
+}
+
 
 
 /*.search li a{

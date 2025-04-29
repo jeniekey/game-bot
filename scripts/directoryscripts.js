@@ -2,7 +2,7 @@ const data = [
   {
     name: "Baldur's Gate 3",
     genre: "RPG",
-    price: "expensivePrice",
+    price: "$60",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -13,8 +13,8 @@ const data = [
   },
   {
     name: "Celeste",
-    genre: "platformer",
-    price: "lowPrice",
+    genre: "Platformer",
+    price: "$20",
     platform: "all",
     world: "linear",
     hours: "15-30",
@@ -22,11 +22,12 @@ const data = [
     Players: "single",
     img: "images/celeste.png",
     url: "celeste.html",
+    id: 2
   },
   {
     name: "Chicory: A Colorful Tale",
-    genre: "action",
-    price: "moderatePrice",
+    genre: "Action",
+    price: "$20",
     platform: "all",
     world: "openWorld",
     hours: "15-30",
@@ -38,7 +39,7 @@ const data = [
   {
     name: "Cyberpunk 2077",
     genre: "RPG",
-    price: "expensivePrice",
+    price: "$60",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -49,8 +50,8 @@ const data = [
   },
   {
     name: "Deep Rock Galactic",
-    genre: "shooter",
-    price: "moderatePrice",
+    genre: "Shooter",
+    price: "$30",
     platform: "all",
     world: "openWorld",
     length: "31+",
@@ -62,8 +63,8 @@ const data = [
 
   {
     name: "DOOM Eternal",
-    genre: "shooter",
-    price: "moderatePrice",
+    genre: "Shooter",
+    price: "$15",
     platform: "all",
     world: "linear",
     hours: "15-30",
@@ -74,8 +75,8 @@ const data = [
   },
   {
     name: "Fallout: New Vegas",
-    genre: "rpg",
-    price: "lowPrice",
+    genre: "Rpg",
+    price: "$10",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -87,8 +88,8 @@ const data = [
 
   {
     name: "Firewatch",
-    genre: "narrative",
-    price: "lowPrice",
+    genre: "Narrative",
+    price: "$4",
     platform: "all",
     world: "linear",
     hours: "0-5",
@@ -100,7 +101,7 @@ const data = [
   {
     name: "Genshin Impact",
     genre: "RPG",
-    price: "free",
+    price: "Free",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -112,8 +113,8 @@ const data = [
  },
  {
   name: "Hades",
-  genre: "rpg",
-  price: "moderatePrice",
+  genre: "Rpg",
+  price: "$25",
   platform: "all",
   world: "mixed",
   hours: "15-30",
@@ -124,8 +125,8 @@ const data = [
   },
   {
     name: "Hollow Knight",
-    genre: "action",
-    price: "lowPrice",
+    genre: "Action",
+    price: "$8",
     platform: "all",
     world: "openWorld",
     hours: "15-30",
@@ -136,8 +137,8 @@ const data = [
   },
   {
     name: "It Takes Two",
-    genre: "platformer",
-    price: "moderatePrice",
+    genre: "Patformer",
+    price: "$39.99",
     platform: "all",
     world: "linear",
     hours: "15-30",
@@ -148,8 +149,8 @@ const data = [
   },
   {
     name: "Journey",
-    genre: "action",
-    price: "lowPrice",
+    genre: "Action",
+    price: "$15",
     platform: "pc",
     world: "linear",
     hours: "0-5",
@@ -161,8 +162,8 @@ const data = [
   },
   {
     name: "League of Legends",
-    genre: "action",
-    price: "free",
+    genre: "Action",
+    price: "Free",
     platform: "pc",
     world: "linear",
     hours: "31+",
@@ -174,8 +175,8 @@ const data = [
   },
   {
     name: "Minecraft",
-    genre: "survival",
-    price: "moderatePrice",
+    genre: "Survival",
+    price: "$29.99",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -186,8 +187,8 @@ const data = [
   },
   {
     name: "Outer Wilds",
-    genre: "action",
-    price: "moderatePrice",
+    genre: "Action",
+    price: "$24.99",
     platform: "all",
     world: "open",
     hours: "15-30",
@@ -198,8 +199,8 @@ const data = [
   },
   {
     name: "Overwatch 2",
-    genre: "shooter",
-    price: "free",
+    genre: "Shooter",
+    price: "Free",
     platform: "all",
     world: "linear",
     hours: "31+",
@@ -211,8 +212,8 @@ const data = [
   },
   {
     name: "Papers, Please",
-    genre: "puzzle",
-    price: "lowPrice",
+    genre: "Puzzle",
+    price: "$9.99",
     platform: "pc",
     world: "linear",
     hours: "5-15",
@@ -223,8 +224,8 @@ const data = [
   },
   {
     name: "Red Dead Redemption 2",
-    genre: "action",
-    price: "expensivePrice",
+    genre: "Action",
+    price: "$60",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -235,8 +236,8 @@ const data = [
   },
   {
     name: "Return of the Obra Dinn",
-    genre: "puzzle",
-    price: "moderatePrice",
+    genre: "Puzzle",
+    price: "$20",
     platform: "all",
     world: "openWorld",
     hours: "15-30",
@@ -247,8 +248,8 @@ const data = [
   },
   {
     name: "Slay the Spire",
-    genre: "puzzle",
-    price: "moderatePrice",
+    genre: "Puzzle",
+    price: "$7",
     platform: "all",
     world: "linear",
     hours: "5-15",
@@ -259,8 +260,8 @@ const data = [
   },
   {
     name: "Stardew Valley",
-    genre: "simulator",
-    price: "lowPrice",
+    genre: "Simulator",
+    price: "$15",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -271,8 +272,8 @@ const data = [
   },
   {
     name: "Subnautica",
-    genre: "survival",
-    price: "moderatePrice",
+    genre: "Survival",
+    price: "$15",
     platform: "all",
     world: "openWorld",
     hours: "15-30",
@@ -283,8 +284,8 @@ const data = [
   },
   {
     name: "Terraria",
-    genre: "survival",
-    price: "lowPrice",
+    genre: "Survival",
+    price: "$10",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -295,8 +296,8 @@ const data = [
   },
   {
     name: "Tetris Effect",
-    genre: "puzzle",
-    price: "moderatePrice",
+    genre: "Puzzle",
+    price: "$40",
     platform: "all",
     world: "linear",
     hours: "5-15",
@@ -307,8 +308,8 @@ const data = [
   },
   {
     name: "The Legend of Zelda: Breath of the Wild",
-    genre: "action",
-    price: "expensivePrice",
+    genre: "Action",
+    price: "$40",
     platform: "console",
     world: "openWorld",
     hours: "31+",
@@ -319,8 +320,8 @@ const data = [
   },
   {
     name: "The Sims 4",
-    genre: "simulator",
-    price: "expensivePrice",
+    genre: "Simulator",
+    price: "$40",
     platform: "all",
     world: "openWorld",
     hours: "31+",
@@ -331,8 +332,8 @@ const data = [
   },
   {
     name: "The Witness",
-    genre: "puzzle",
-    price: "moderatePrice",
+    genre: "Puzzle",
+    price: "$40",
     platform: "all",
     world: "openWorld",
     hours: "15-30",
@@ -343,8 +344,8 @@ const data = [
   },
   {
     name: "Tunic",
-    genre: "action",
-    price: "moderatePrice",
+    genre: "Action",
+    price: "$30",
     platform: "all",
     world: "mixed",
     hours: "5-15",
@@ -355,8 +356,8 @@ const data = [
   },
   {
     name: "Wattam",
-    genre: "puzzle",
-    price: "moderatePrice",
+    genre: "Puzzle",
+    price: "$20",
     platform: "pc",
     world: "openWorld",
     hours: "5-15",
@@ -367,15 +368,12 @@ const data = [
   }
 ]
 
-const productContainer = document.querySelector('.products_wrapper');
-const linksEl = document.querySelectorAll('li a');
-
 
 window.addEventListener("DOMContentLoaded", () =>{
   displayGameData(data);
 });
 
-
+const productContainer = document.querySelector('.products_wrapper');
 
 
 //display all games
@@ -383,12 +381,13 @@ function displayGameData(gamez) {
   let displayData = gamez.map(function(cat_items){
     return `<div class="products">
             <div class="pr_img">
-              <img src="${cat_items.img}" alt="" width="200" height="250"/>
+              <img src="${cat_items.img}" alt="" width="215" height="250"/>
             </div>
             <div class="content">
               <h3 class="title">${cat_items.name}</h3>
-              <p class="genre">${cat_items.genre}: RPG</p>
+              <p class="genre">${cat_items.genre}</p>
               <p class="price">${cat_items.price}</p>
+              <p class="url">${cat_items.url}"</p>
             </div>
           </div>`;
 
@@ -396,3 +395,5 @@ function displayGameData(gamez) {
 displayData = displayData.join("");
 productContainer.innerHTML = displayData;
 }
+
+
