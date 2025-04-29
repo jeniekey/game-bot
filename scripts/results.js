@@ -1,5 +1,6 @@
-let results = localStorage.getItem('results');
+const results = localStorage.getItem('results');
 console.log(results);
+
 
 const parsedData = JSON.parse(results);
 console.log(parsedData);
@@ -28,8 +29,12 @@ console.log(displayResults);
 });
   
 } 
-
- else { let message = localStorage.getItem('noresults');  productContainer.innerHTML = `<p>${message}</p>`; }
+ else 
+ {  
+  const retry = localStorage.getItem('noresult');
+  console.log(retry); 
+  productContainer.innerHTML = `<p>${retry}</p>`; 
+}
 
 
 

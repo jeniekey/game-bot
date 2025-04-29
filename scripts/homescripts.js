@@ -568,7 +568,7 @@ getGame(newUser);
 
    
  
-  //window.location.href = (`results.html`);
+
 
     });
 
@@ -628,26 +628,13 @@ function getGame(userData) {
 
  if ( resultArray.length > 0 ) {
   const finalData = JSON.stringify(resultArray);
-
   localStorage.setItem('results', finalData);
  } 
  
- else {localStorage.setItem('results', `Sorry, we didn't find a match`);}
-
- 
-
+ else {
+  const voidData = (`Sorry, no match! Try Again.`)
+  localStorage.setItem('noresult', voidData);
+}
    window.location.href = `results.html`;
 
 } 
-// players, platform, openworld, genre, money, hours, violence
-
-// name: "Baldur's Gate 3",
-   // genre: "RPG",
-   // price: "expensivePrice",
-   // platform: "all",
-   // world: "openWorld",
-   // hours: "31+",
-   // violence: "highVio",
-   // Players: "both",
-   // img: "images/baldurs_gate3.png",
-  //  url: "baldurs_gate3.html",
