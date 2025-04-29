@@ -387,7 +387,7 @@ function displayGameData(gamez) {
               <h3 class="title">${cat_items.name}</h3>
               <p class="genre">${cat_items.genre}</p>
               <p class="price">${cat_items.price}</p>
-             
+            
             </div>
           </div>`;
 
