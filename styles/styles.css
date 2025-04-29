@@ -670,7 +670,7 @@ padding: 2em;
   display: flex;
   justify-content: center;
   background: linear-gradient(rgb(164, 164, 255),blue);
-  width: 300px;
+  width: 350px;
   height: 300px;
   padding: 50px;
  margin: auto;
@@ -681,6 +681,7 @@ padding: 2em;
   margin: auto;
   display: flex;
 justify-content: center;
+background: white;
 
 }
 
