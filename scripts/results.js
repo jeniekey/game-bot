@@ -5,15 +5,14 @@ const parsedData = JSON.parse(results);
 console.log(parsedData);
 const productContainer = document.getElementById('firstdiv');
 
-
-if (parsedData.lenghth > 0 ) {
+if (parsedData.length > 0 ) {
 
 console.log(productContainer);
 
 window.addEventListener("DOMContentLoaded",() =>{
 let displayResults = parsedData.map(function(results_items){
-  return `<div class="products">
-            <div class="pr_img">
+  return `<div class="resultcard">
+            <div class="result_img">
               <img src="${results_items.img}" alt="" width="200" height="250"/>
             </div>
             <div class="content">
@@ -28,11 +27,11 @@ productContainer.innerHTML = displayResults;
 console.log(displayResults);
 });
   
-} else {
-  let message = localStorage.getItem('noresults');
-  productContainer.innerHTML = `<p>${message}</p>`;
+} 
 
-}
+ else { let message = localStorage.getItem('noresults');  productContainer.innerHTML = `<p>${message}</p>`; }
+
+
 
 
 

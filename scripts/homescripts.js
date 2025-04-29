@@ -630,9 +630,9 @@ function getGame(userData) {
   const finalData = JSON.stringify(resultArray);
 
   localStorage.setItem('results', finalData);
- } else {
-  localStorage.setItem('noresults', `Sorry, we didn't find a match.`);
- }
+ } 
+ 
+ else {localStorage.setItem('results', `Sorry, we didn't find a match`);}
 
  
 
