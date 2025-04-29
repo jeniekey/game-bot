@@ -1,7 +1,6 @@
 const results = localStorage.getItem('results');
 console.log(results);
 
-
 const parsedData = JSON.parse(results);
 console.log(parsedData);
 const productContainer = document.getElementById('firstdiv');

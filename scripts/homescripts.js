@@ -45,10 +45,10 @@
       }
       $(".nav--buttons--left").css("display", "block");
       if (carouselIndex === carouselLength - 1 || carouselIndex === carouselMax) {
-        $(".nav--buttons--right").css("display", "none");
+        $(".nav--buttons--right").css("display", "show");
       }
       if (carouselIndex === 1) {
-        $(".nav--buttons--left").css("display", "none");
+        $(".nav--buttons--left").css("display", "show");
       }
       return carouselContent.transition({ x: carouselIndex * -itemWidth + '%' }, carouselTransition, 'ease', function () {
           return isAnimating = false;
