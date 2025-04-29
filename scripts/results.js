@@ -3,12 +3,13 @@ console.log(results);
 
 const parsedData = JSON.parse(results);
 console.log(parsedData);
-const productContainer = document.getElementById('firstdiv');
+const productContainer = document.getElementById('resultbox');
 
 if (parsedData.length > 0 ) {
 
 console.log(productContainer);
 
+/*
 window.addEventListener("DOMContentLoaded",() =>{
 let displayResults = parsedData.map(function(results_items){
   return `<div class="resultcard">
@@ -27,7 +28,6 @@ displayResults = displayResults.join("");
 productContainer.innerHTML = displayResults;
 console.log(displayResults);
 });
-  
 } 
  else 
  {  
@@ -36,7 +36,32 @@ console.log(displayResults);
   productContainer.innerHTML = `<p>${retry}</p>`; 
 }
 
+*/
 
+let displayResults = parsedData.map(function(results_items){
+  return `<div class="resultcard">
+            <div class="result_img">
+              <img src="${results_items.img}" alt="" width="200" height="250"/>
+            </div>
+            <div class="content">
+              <h3 class="title">${results_items.name}</h3>
+              <p class="genre">${results_items.genre}</p>
+              <p class="price">${results_items.price}</p>
+              <p class="players">${results_items.Players}</p>
+            </div>
+          </div>`;
+        });
+displayResults = displayResults.join("");
+productContainer.innerHTML = displayResults;
+console.log(displayResults);
+
+} 
+ else 
+ {  
+  const retry = localStorage.getItem('noresult');
+  console.log(retry); 
+  productContainer.innerHTML = `<p>${retry}</p>`; 
+}
 
 
 

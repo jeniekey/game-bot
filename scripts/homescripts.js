@@ -520,6 +520,7 @@ let resultArray = [];
 
 btn.addEventListener("click", ( )=>
    {
+    //localStorage.clear();
     let questionOne = document.getElementsByName("questionOne");
   let questionTwo = document.getElementsByName("questionTwo");
   let questionThree = document.getElementsByName("questionThree");
@@ -632,8 +633,7 @@ function getGame(userData) {
  } 
  
  else {
-  const voidData = (`Sorry, no match! Try Again.`)
-  localStorage.setItem('noresult', voidData);
+  localStorage.setItem('noresult', 'Sorry, no results!');
 }
    window.location.href = `results.html`;
 
