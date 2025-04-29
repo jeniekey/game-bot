@@ -44,7 +44,9 @@ h6 {
 
 h2 {
 text-shadow: 2px 2px 2px #a6ae11;
-color:#201d1d
+color:#201d1d;
+background: white;
+border-radius: 7px;
 }
 
 a:visited {
@@ -70,7 +72,6 @@ nav {
   align-items: center;
   font-family: "Alexandria";
   padding: 10px 0;
-background-color: white;
 }
 
 
@@ -92,6 +93,8 @@ nav .mainMenu li a {
   font-size: 18px;
   font-weight: 700;
   border-radius: 12px;
+  background:white;
+  border: 1px solid black;
 }
 
 nav .mainMenu li a:hover {
@@ -114,6 +117,7 @@ nav .mainMenu .closeMenu,
   color: #272727;
   font-size: 1.5em;
   text-shadow: 2px 2px 5px #a6ae11;
+  background: white;
 }
 
 /*index styles*/
@@ -328,6 +332,7 @@ input[type="radio"]:focus {
 /*game directory styles*/
 
 
+
 .products_wrapper {
   display: grid;
   grid-template-columns: repeat(4,1fr) ;
@@ -337,7 +342,6 @@ input[type="radio"]:focus {
 .products {
   background-color: #3756f1;
   border-radius: 5px;
-  cursor: pointer;
   color:white;
   border-color: black;
 }
@@ -415,7 +419,7 @@ padding: 2em;
 	align-items: center;
 	list-style: none;
 	gap: 10px;
-  background-color: #ffffff;
+  background-color: 
   border-radius: 12px;
   }
   
@@ -431,6 +435,8 @@ padding: 2em;
 	font-family: "Alexandria";
   font-size: 18px;
   font-weight: 700;
+  background: white;
+  border: 1px solid black;
   }
   
  #footer-nav a:hover {
@@ -635,6 +641,11 @@ padding: 2em;
 
   .carousel .progress-bar .progress-bar-insider:after {
     transform: translateY(-100%);
+  }
+  .products_wrapper {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
   }
 }
 

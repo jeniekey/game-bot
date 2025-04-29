@@ -292,7 +292,7 @@ const data = [
     violence: "moderateVio",
     Players: "both",
     img: "images/terraria.png",
-    url: "terraria.html",
+    url: "terraria.org",
   },
   {
     name: "Tetris Effect",
@@ -304,7 +304,7 @@ const data = [
     violence: "noVio",
     Players: "both",
     img: "images/tetris_effect.png",
-    url: "tetris_effect.html",
+    url: "monstars.com/tetris-effect",
   },
   {
     name: "The Legend of Zelda: Breath of the Wild",
@@ -316,7 +316,7 @@ const data = [
     violence: "moderateVio",
     Players: "singleplayer",
     img: "images/zelda_botw.png",
-    url: "zelda_botw.html",
+    url: "zelda.nintendo.com",
   },
   {
     name: "The Sims 4",
@@ -328,7 +328,7 @@ const data = [
     violence: "noVio",
     Players: "singleplayer",
     img: "images/sims4.png",
-    url: "sims4.html",
+    url: "ea.com/thesims",
   },
   {
     name: "The Witness",
@@ -340,7 +340,7 @@ const data = [
     violence: "noVio",
     Players: "singleplayer",
     img: "images/the_witness.png",
-    url: "the_witness.html",
+    url: "the-witness.net",
   },
   {
     name: "Tunic",
@@ -352,7 +352,7 @@ const data = [
     violence: "moderateVio",
     Players: "singleplayer",
     img: "images/tunic.png",
-    url: "tunic.html",
+    url: "tunicgame.com",
   },
   {
     name: "Wattam",
@@ -364,7 +364,7 @@ const data = [
     violence: "noVio",
     Players: "both",
     img: "images/wattam.png",
-    url: "wattam.html",
+    url: "wattamgame.com",
   }
 ]
 
@@ -381,13 +381,13 @@ function displayGameData(gamez) {
   let displayData = gamez.map(function(cat_items){
     return `<div class="products">
             <div class="pr_img">
-              <img src="${cat_items.img}" alt="" width="215" height="250"/>
+              <img src="${cat_items.img}" alt="${cat_items.name}" width="215" height="250"/>
             </div>
             <div class="content">
               <h3 class="title">${cat_items.name}</h3>
               <p class="genre">${cat_items.genre}</p>
               <p class="price">${cat_items.price}</p>
-              <p class="url">${cat_items.url}"</p>
+             
             </div>
           </div>`;
 

@@ -45,8 +45,8 @@ let displayResults = parsedData.map(function(results_items){
             </div>
             <div class="content">
               <h3 class="title">${results_items.name}</h3>
-              <p class="genre">${results_items.genre}</p>
-              <p class="price">${results_items.price}</p>
+              <p class="genre">${results_items.genre} game</p>
+              <p class="hours">${results_items.hours} hours</p>
               <p class="players">${results_items.Players}</p>
             </div>
           </div>`;
