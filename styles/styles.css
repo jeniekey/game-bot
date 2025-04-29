@@ -4,9 +4,10 @@
 
 html {
   box-sizing: border-box;
-  background: radial-gradient(#ffffff);
+  background-color: #fff;
   font-size: 16px;
   padding: 0;
+  background-image: url(wallpaperrr.png);
 }
 
 body {
@@ -41,14 +42,19 @@ h6 {
   font-weight: 700;
 }
 
+h2 {
+  background: linear-gradient(#ffffff, rgb(245, 255, 171));
+  border-radius: 12px;
+}
+
 a:visited {
   text-decoration: none;
-  color: #367332;
+  color: #0008aa;
 }
 
 a {
   text-decoration: none;
-  color: #367332;
+  color: #ff0606;
 }
 
 img {
@@ -59,7 +65,7 @@ img {
 /*nav styles*/
 
 nav {
-  background: linear-gradient(#ffffff, #C8F9C9);
+  background: linear-gradient(#ffffff);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -79,7 +85,7 @@ nav .mainMenu li a {
   flex-wrap: wrap;
   padding: 10px 10px;
   text-decoration: none;
-  color: #367332;
+  color: #ff0000;
   text-transform: uppercase;
   text-align: center;
   font-size: 18px;
@@ -88,7 +94,7 @@ nav .mainMenu li a {
 }
 
 nav .mainMenu li a:hover {
-  background: #DEE3FF;
+  background: #0015ff;
   transition: ease 0.5s;
 }
 
@@ -105,6 +111,7 @@ nav .mainMenu .closeMenu,
 .logo {
   color: #272727;
   font-size: 1.5em;
+  text-shadow: 2px 2px 5px rgb(221, 255, 0);
 }
 
 /*index styles*/
@@ -137,13 +144,13 @@ ul {
 
 .carousel .progress-bar {
   position: relative;
-  background-color: #DEE3FF;
+  background-color: #dee6ff;
   height: 2em;
   border-radius: 10px;
 }
 .carousel .progress-bar .progress-bar-insider {
   position: relative;
-  background-color: #8724EB;
+  background-color: #2424eb;
   box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
   width: 4%;
   height: 2em;
@@ -179,7 +186,7 @@ ul {
           flex-direction: column;
   float: left;
   height: 400px;
-  background-color: #C8F9C9;
+  background-color: #7d81ff;
   border-radius: 10px;
 }
 
@@ -194,12 +201,13 @@ ul {
 
 .carousel .carousel__content .carousel--item .carousel--radios {
   font-size: 2em;
-  color: #C8F9C9;
+  color: #c8d6f9;
   opacity: 1;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -227,7 +235,7 @@ ul {
 .carousel .carousel__nav .nav--buttons {
   position: absolute;
   top: 0;
-  color: #367332;
+  color: #1114ae;
   padding: 12px 25px;
   font-weight: bold;
   text-decoration: none;
@@ -258,7 +266,7 @@ label {
 .carousel--radios button, #btnCalculate {
   font-family: "Tomorrow";
   color: #ffffff;
-  background-color: #367332;
+  background-color: #fb0000;
   padding: 10px 30px;
   border-radius: 5px;
   margin-bottom: 15px;
@@ -268,9 +276,15 @@ label {
 
 .carousel--radios button:hover, #btnCalculate:hover {
   padding: 15px 35px;
-  box-shadow: 3px 6px 5px 0px #367332;
-  transition: 0.3s ease;
-  background-color: #367332;
+  background-color: #ff0000;
+}
+
+#beginbtn:hover {
+padding: 10px 30px;
+}
+
+#firstslide {
+  display: flex;
 }
 
 input[type="radio"] {
@@ -290,12 +304,12 @@ input[type="radio"] {
   align-self: center;
 }
 input[type="radio"]:hover, input[type="radio"]:checked {
-  background: #367332;
-  box-shadow: inset 0 0 0 .5em #fff, 0 0 0 .25em #367332;
+  background: #333273;
+  box-shadow: inset 0 0 0 .5em #fff, 0 0 0 .25em #333273;
 }
 input[type="radio"]:checked {
-  background: #367332;
-  box-shadow: inset 0 0 0 .4em #fff, 0 0 0 .2em #367332;
+  background: #333273;
+  box-shadow: inset 0 0 0 .4em #fff, 0 0 0 .2em #333273;
 }
 input[type="radio"]:focus {
   outline: 0;

@@ -151,7 +151,7 @@ const productData = [
     price: "expensivePrice",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "highVio",
     Players: "both",
     img: "images/baldurs_gate3.png",
@@ -163,7 +163,7 @@ const productData = [
     price: "lowPrice",
     platform: "all",
     world: "linear",
-    length: "15-30",
+    hours: "15-30",
     violence: "noVio",
     Players: "single",
     img: "images/celeste.png",
@@ -175,7 +175,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "openWorld",
-    length: "15-30",
+    hours: "15-30",
     violence: "noVio",
     Players: "both",
     img: "images/chicory.png",
@@ -187,7 +187,7 @@ const productData = [
     price: "expensivePrice",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "highVio",
     Players: "singleplayer",
     img: "images/cyberpunk2077.png",
@@ -212,7 +212,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "linear",
-    length: "15-30",
+    hours: "15-30",
     violence: "highVio",
     Players: "singleplayer",
     img: "images/doom_eternal.png",
@@ -224,7 +224,7 @@ const productData = [
     price: "lowPrice",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "highVio",
     Players: "singleplayer",
     img: "images/fallout_nv.png",
@@ -237,7 +237,7 @@ const productData = [
     price: "lowPrice",
     platform: "all",
     world: "linear",
-    length: "0-5",
+    hours: "0-5",
     violence: "lowVio",
     Players: "singleplayer",
     img: "images/firewatch.png",
@@ -249,7 +249,7 @@ const productData = [
     price: "free",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "moderateVio",
     Players: "both",
     img: "images/genshin_impact.png",
@@ -262,7 +262,7 @@ const productData = [
   price: "moderatePrice",
   platform: "all",
   world: "mixed",
-  length: "15-30",
+  hours: "15-30",
   violence: "highVio",
   Players: "singleplayer",
   img: "images/hades.png",
@@ -274,7 +274,7 @@ const productData = [
     price: "lowPrice",
     platform: "all",
     world: "openWorld",
-    length: "15-30",
+    hours: "15-30",
     violence: "moderateVio",
     Players: "singleplayer",
     img: "images/hollow_knight.png",
@@ -286,7 +286,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "linear",
-    length: "15-30",
+    hours: "15-30",
     violence: "lowVio",
     Players: "multiplayer",
     img: "images/it_takes_two.png",
@@ -298,7 +298,7 @@ const productData = [
     price: "lowPrice",
     platform: "pc",
     world: "linear",
-    length: "0-5",
+    hours: "0-5",
     violence: "noVio",
     Players: "both",
     img: "images/journey.png",
@@ -311,7 +311,7 @@ const productData = [
     price: "free",
     platform: "pc",
     world: "linear",
-    length: "31+",
+    hours: "31+",
     violence: "moderateVio",
     Players: "multiplayer",
     img: "images/league_of_legends.png",
@@ -324,7 +324,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "moderateVio",
     Players: "both",
     img: "images/minecraft.png",
@@ -336,7 +336,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "open",
-    length: "15-30",
+    hours: "15-30",
     violence: "lowVio",
     Players: "singleplayer",
     img: "images/outer_wilds.png",
@@ -348,7 +348,7 @@ const productData = [
     price: "free",
     platform: "all",
     world: "linear",
-    length: "31+",
+    hours: "31+",
     violence: "moderateVio",
     Players: "multiplayer",
     img: "images/overwatch2.png",
@@ -361,7 +361,7 @@ const productData = [
     price: "lowPrice",
     platform: "pc",
     world: "linear",
-    length: "5-15",
+    hours: "5-15",
     violence: "moderateVio",
     Players: "singleplayer",
     img: "images/papers_please.png",
@@ -373,7 +373,7 @@ const productData = [
     price: "expensivePrice",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "highVio",
     Players: "both",
     img: "images/rdr2.png",
@@ -385,7 +385,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "openWorld",
-    length: "15-30",
+    hours: "15-30",
     violence: "lowVio",
     Players: "singleplayer",
     img: "images/obra_dinn.png",
@@ -397,7 +397,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "linear",
-    length: "5-15",
+    hours: "5-15",
     violence: "lowVio",
     Players: "singleplayer",
     img: "images/slay_the_spire.png",
@@ -409,7 +409,7 @@ const productData = [
     price: "lowPrice",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "noVio",
     Players: "both",
     img: "images/stardew_valley.png",
@@ -421,7 +421,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "openWorld",
-    length: "15-30",
+    hours: "15-30",
     violence: "moderateVio",
     Players: "singleplayer",
     img: "images/subnautica.png",
@@ -433,7 +433,7 @@ const productData = [
     price: "lowPrice",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "moderateVio",
     Players: "both",
     img: "images/terraria.png",
@@ -445,7 +445,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "linear",
-    length: "5-15",
+    hours: "5-15",
     violence: "noVio",
     Players: "both",
     img: "images/tetris_effect.png",
@@ -457,7 +457,7 @@ const productData = [
     price: "expensivePrice",
     platform: "console",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "moderateVio",
     Players: "singleplayer",
     img: "images/zelda_botw.png",
@@ -469,7 +469,7 @@ const productData = [
     price: "expensivePrice",
     platform: "all",
     world: "openWorld",
-    length: "31+",
+    hours: "31+",
     violence: "noVio",
     Players: "singleplayer",
     img: "images/sims4.png",
@@ -481,7 +481,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "openWorld",
-    length: "15-30",
+    hours: "15-30",
     violence: "noVio",
     Players: "singleplayer",
     img: "images/the_witness.png",
@@ -493,7 +493,7 @@ const productData = [
     price: "moderatePrice",
     platform: "all",
     world: "mixed",
-    length: "5-15",
+    hours: "5-15",
     violence: "moderateVio",
     Players: "singleplayer",
     img: "images/tunic.png",
@@ -505,7 +505,7 @@ const productData = [
     price: "moderatePrice",
     platform: "pc",
     world: "openWorld",
-    length: "5-15",
+    hours: "5-15",
     violence: "noVio",
     Players: "both",
     img: "images/wattam.png",
@@ -513,14 +513,10 @@ const productData = [
   }
 ]
 
-function compareArr(arr1, object1)
-{
-  const intersection = arr1.filter(element =>
-Object.values(object1).includes(element));
-  return intersection.length;
-}
-let newUser = [];
+let newUser = {};
 let btn = document.getElementById("btnCalculate");
+let resultArray = [];
+
 
 btn.addEventListener("click", ( )=>
    {
@@ -531,55 +527,127 @@ btn.addEventListener("click", ( )=>
   let questionFive = document.getElementsByName("questionFive");
   let questionSix = document.getElementsByName("questionSix");
   let questionSeven = document.getElementsByName("questionSeven");
-    questionOne.forEach((question)=>{
+    questionOne.forEach( question =>{
       if (question.checked) {
-        newUser.push(question.value);
+        newUser.Players = question.value;
       }
     });
       questionTwo.forEach((question)=>{
       if (question.checked) {
-        newUser.push(question.value);
+        newUser.platform = question.value;
       }
     });
   questionThree.forEach((question)=>{
       if (question.checked) {
-        newUser.push(question.value);
+        newUser.world = question.value;
       }
     });
   questionFour.forEach((question)=>{
       if (question.checked) {
-        newUser.push(question.value);
+        newUser.genre = question.value;
       }
     });
   questionFive.forEach((question)=>{
       if (question.checked) {
-        newUser.push(question.value);
+        newUser.price = question.value;
       }
     });
   questionSix.forEach((question)=>{
       if (question.checked) {
-        newUser.push(question.value);
+        newUser.hours = question.value;
       }
     });
   questionSeven.forEach((question)=>{
       if (question.checked) {
-        newUser.push(question.value);
+        newUser.violence = question.value;
       }
     });
     console.log(newUser);
-    resultarray = [];
-    for(i = 0; i<productData.length; i++)
-      {
-        resultarray.push(compareArr(newUser, productData[i]));
-      }
-    maxIndex = resultarray.indexOf(Math.max.apply(Math, resultarray));
-    nameOfProduct = productData[maxIndex].name;
-    productURL = productData[maxIndex].url;
-    location.href = productURL;
-    } );
+getGame(newUser);
+      
 
+   
+ 
+  //window.location.href = (`results.html`);
+
+    });
 
 
 //calculate//
 
 ///results///
+
+
+function getGame(userData) {
+
+  productData.forEach( item => {
+    console.log(item);
+    let counter = 0;
+    if (item.Players == userData.Players) {
+      console.log('we match on players');
+      //resultArray.push(item); ?
+      counter++;
+    } 
+
+    if (item.platform == userData.platform) {
+      console.log('we match on platform');
+      counter++;
+    } 
+
+    if (item.world == userData.world) {
+      console.log('we match on world');
+      counter++;
+    } 
+
+    if (item.genre == userData.genre) {
+      console.log('we match on genre');
+      counter++;
+    } 
+
+    if (item.price == userData.price) {
+      console.log('we match on price');
+      counter++;
+    } 
+
+    if (item.hours == userData.hours) {
+      console.log('we match on hours');
+      counter++;
+    } 
+
+    if (item.violence == userData.violence) {
+      console.log('we match on violence');
+      counter++;
+    } 
+
+      if (counter >= 5) {
+        resultArray.push(item);
+      } 
+
+  });
+  console.log(resultArray);
+
+ if ( resultArray.length > 0 ) {
+  const finalData = JSON.stringify(resultArray);
+
+  localStorage.setItem('results', finalData);
+ } else {
+  localStorage.setItem('noresults', `Sorry, we didn't find a match.`);
+ }
+
+ 
+
+   window.location.href = `results.html`;
+
+} 
+// players, platform, openworld, genre, money, hours, violence
+
+// name: "Baldur's Gate 3",
+   // genre: "RPG",
+   // price: "expensivePrice",
+   // platform: "all",
+   // world: "openWorld",
+   // hours: "31+",
+   // violence: "highVio",
+   // Players: "both",
+   // img: "images/baldurs_gate3.png",
+  //  url: "baldurs_gate3.html",
