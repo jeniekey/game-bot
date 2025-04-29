@@ -368,9 +368,19 @@ const data = [
 ]
 
 const productContainer = document.querySelector('.products_wrapper');
+const linksEl = document.querySelectorAll('li a');
+
 
 window.addEventListener("DOMContentLoaded", () =>{
-  let displayData = data.map(function(cat_items){
+  displayGameData(data);
+});
+
+
+
+
+//display all games
+function displayGameData(gamez) {
+  let displayData = gamez.map(function(cat_items){
     return `<div class="products">
             <div class="pr_img">
               <img src="${cat_items.img}" alt="" width="200" height="250"/>
@@ -385,18 +395,4 @@ window.addEventListener("DOMContentLoaded", () =>{
   });
 displayData = displayData.join("");
 productContainer.innerHTML = displayData;
-  console.log(displayData);
-});
-
-
-// instead of cat_items do results.genre
-// results.forEach( item => {  return 'html stuff'      });
-// local storage to have data available on the next page
-
-// for questions make array - and loop through - 
-
-//start with empty array, put data in Array, loop through all the data and push it into the array
-
-//results take local storage and make html from it
-
-
+}

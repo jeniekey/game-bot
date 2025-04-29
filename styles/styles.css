@@ -360,14 +360,14 @@ input[type="radio"]:focus {
 }
 
 .content a {
-  color: white;
-  background-color: red;
+  color: rgb(255, 0, 0);
   border-radius: 4px;
   padding: 3px;
 }
 
 .content a:hover {
-  color: red;
+  background-color: blue;
+  color:rgb(255, 240, 37);
 
 }
 
@@ -654,12 +654,19 @@ padding: 2em;
 .resultcard {
   display: flex;
   justify-content: center;
-  background-color: #2b50aa;
+  background: linear-gradient(rgb(164, 164, 255),blue);
   width: 300px;
   height: 300px;
   padding: 50px;
-  border: 1px solid red;
  margin: auto;
+ border-radius: 12px;
+}
+
+.trybtn {
+  margin: auto;
+  display: flex;
+justify-content: center;
+
 }
 
 /*about styles*/
@@ -683,3 +690,42 @@ padding: 2em;
 #files a:hover {
 color:yellow;
 }
+
+
+/*directory*/
+
+.search ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.search ul li {
+  margin: 1rem 1rem;
+
+}
+
+.search ul li a {
+  padding: .5rem 1rem;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.search ul li a:hover {
+  color:red;
+}
+
+
+/*.search li a{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #ff0000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 12px;
+}*/
