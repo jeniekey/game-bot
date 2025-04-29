@@ -19,6 +19,7 @@ let displayResults = parsedData.map(function(results_items){
               <h3 class="title">${results_items.name}</h3>
               <p class="genre">${results_items.price}: RPG</p>
               <p class="price">${results_items.genre}</p>
+              <a href="index.html">Try Again!</a>
             </div>
           </div>`;
         });

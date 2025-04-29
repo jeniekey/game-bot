@@ -355,7 +355,21 @@ input[type="radio"]:focus {
 .content .title {
   font-size: 1rem;
 }
+.content {
+  color:white;
+}
 
+.content a {
+  color: white;
+  background-color: red;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.content a:hover {
+  color: red;
+
+}
 
 #gameDirectoryBody {
   display: grid;
@@ -654,9 +668,18 @@ padding: 2em;
   line-height: 1.5;
   color: #272727;
   display: block;
+  background: linear-gradient(white, rgb(193, 210, 255));
+  border-radius: 12px;
 }
 
 #sources, #files {
   display: flex;
   gap: 10px;
+}
+
+#sources a:hover {
+  color: yellow;
+}
+#files a:hover {
+color:yellow;
 }
